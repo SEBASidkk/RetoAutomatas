@@ -1,0 +1,8 @@
+b=7
+a = 32.4 *(-8.6 - b)/       6.1E-8
+d = a ^ b // Esto es un comentario
+x = .5 + 2.
+resultado = (a + b) * (c - d) / 2
+y = -3.14E+2 ^ x_1
+z = a_var * (b2 + _invalido) - 100
+w = 1E3 + 2.5e-4
