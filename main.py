@@ -255,8 +255,8 @@ def tokenizar_linea(linea, tokens):
             i += 1
 
 
-#funcion principal del lexer
-def lexer_aritmetico(archivo):
+#funcion principal del lexer  →  firma requerida: lexerAritmetico(archivo)
+def lexerAritmetico(archivo):
     try:
         f = open(archivo, 'r', encoding='utf-8')
         lineas = f.readlines()
@@ -289,4 +289,4 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Uso: python " + sys.argv[0] + " <archivo.txt>")
     else:
-        lexer_aritmetico(sys.argv[1])
+        lexerAritmetico(sys.argv[1])
